@@ -1,5 +1,5 @@
 #input the data
-with open(r"Z:\VSC-repo\AOC\advent3.txt.") as fin:
+with open(r"Z:\VSC-repo\AOC\advent2pt2.txt.") as fin:
       data = [i for i in fin.read().strip().split("\n")] # Takes the data from the file and puts into array 
 #print(data)
 
