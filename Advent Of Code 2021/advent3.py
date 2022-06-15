@@ -31,11 +31,8 @@ def partone(data):
 #----------------------------------------------------------------------------------------------------------------------
 #calculate the power consumption (gamma rate * epsilon rate)
 #Convert the binary string to decimal
-#----------------------------------------------------------------------------------------------------------------------Yep
-      power=0
-      for i in range(0, len(data[0])):
-            power=power+int(data[i], 2)*int(epsilon[i], 2)
-      print("The Power is:",power)
+#----------------------------------------------------------------------------------------------------------------------
+     # I used an online calculator to change the binary strings to decimal and then mulitplied
 #----------------------------------------------------------------------------------------------------------------------
 #call functions
 partone(data)
